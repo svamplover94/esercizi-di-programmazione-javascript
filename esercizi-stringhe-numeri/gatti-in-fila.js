@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 10;
+var catsraw = 3;
+
+var nraw = Math.ceil(cats/catsraw);
+console.log(`File di gatti:  ${nraw}`);
+var nocat = cats%catsraw;
+console.log('Gatti mancanti: ' +nocat);
