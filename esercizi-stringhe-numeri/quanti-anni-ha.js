@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var anno = 2018;
+var nascita = 1991;
+
+var eta = anno - nascita;
+console.log("Età: " + eta);
+
+var cento = 100 - eta;
+console.log("Mancanti: "+ cento);
